@@ -46,9 +46,9 @@ This implements an RPC endpoint (`generate_pricing`) which is called with a sing
 
 Take a look at the provided model. The model gives you details on how to take in a risk i.e. an insurance group
 and translate it to a "factor". These factors get multiplied with the "Base Rate" price (found in the "Base Rates" 
-sheet) to form a total price the user should pay.
-The base rate changes depending on the duration of cover selected. For instance if the user wants insurance for one hour
-you would multiple the base rate price for one hour to the factors relevant to their risk.
+sheet) to form a total price the user should pay. The base rate changes depending on the duration of cover selected. 
+We typically give the user a price for every duration of cover we offer, letting the user pick the duration that makes 
+sense for them. 
 Take a look at the "Calculator" sheet and familiarise yourself with how the total price a user pays is calculated.
 
 #### Task 2  - Accept details about a user
@@ -70,4 +70,4 @@ This represents details about a single user.
 Update the `generate_pricing` endpoint to respond with the total price a user should pay for each duration of cover
 found in the base rates sheet.
 
-The output must be in JSON, the schema of output of the API is left to you.
+The output must be in JSON, the schema of the output is left to you.
