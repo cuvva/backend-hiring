@@ -65,7 +65,7 @@ Update the `generate_pricing` endpoint to accept the following example input.
 
 This represents details about a single user.
 
-### Task 3 -  Produce a users price for a range of durations
+#### Task 3 -  Produce a users price for a range of durations
 
 Update the `generate_pricing` endpoint to respond with the total price a user should pay for each duration of cover
 found in the base rates sheet.
