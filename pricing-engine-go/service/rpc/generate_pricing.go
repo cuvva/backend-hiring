@@ -61,13 +61,13 @@ func response(w http.ResponseWriter, res interface{}) {
 		return
 	}
 
-	w.Write(resBody)
 	w.Header().Add("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
+	w.Write(resBody)
 }
 
 // errorResponse writes out an error to the client as plaintext
 func errorResponse(w http.ResponseWriter, err error) {
-	w.Write([]byte(err.Error()))
 	w.WriteHeader(http.StatusInternalServerError)
+	w.Write([]byte(err.Error()))
 }
