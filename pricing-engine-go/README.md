@@ -6,8 +6,8 @@ Thanks for applying to become a Cuvva Backend Engineer 🎉. Below is a challeng
 
 Before we start lets set some rules on how much you should feel you need to do:
 
-- The challenge shouldn't take you more than **four hours** (this is the maximum time allowed but we expect it to take less)
-    - If you reach the maximum allowed time and haven't completed the task in the way you want you can use a README
+- The challenge shouldn't take you more than **four hours** (this is the recommended time but we expect it to take less)
+    - If you reach the maximum allowed time and haven't completed the task in the way you want, you can use a README
     to document what you would have liked to do. If you do so, please be as detailed as possible.
 - You should write code as if it were going to go into production. This means using best practices where possible.
     - We favour well-documented, simple code over code that is complex, terse and hard to read.
@@ -50,6 +50,11 @@ sheet) to form a total price the user should pay. The base rate changes dependin
 We typically give the user a price for every duration of cover we offer, letting the user pick the duration that makes
 sense for them.
 Take a look at the "Calculator" sheet and familiarise yourself with how the total price a user pays is calculated.
+
+A few notes worthwhile mentioning:
+- We do not intend you to read, parse and use the Excel spreadsheet we provided. This is only provided to communicate
+the model. Feel free to copy the factors into a structure you find appropriate for the exercise.
+- We expect you to think about scalability of the model and factor it into the design of the application.
 
 #### Task 2  - Accept details about a user
 
