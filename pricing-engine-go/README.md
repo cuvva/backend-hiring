@@ -13,7 +13,7 @@ Before we start lets set some rules on how much you should feel you need to do:
     - We favour well-documented, simple code over code that is complex, terse and hard to read.
     - We favour well tested code.
     - We favour making proper use of concurrency to speed up processes where possible.
-    - We believe its good practice to make sure inputs are validated and sanitized before being used.
+    - We believe it is good practice to make sure inputs are validated and sanitized before being used.
 - Once you're finished we'd like you to submit your code back to us as a zip. Please do not use a public repository.
 
 ## The task
