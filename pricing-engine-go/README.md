@@ -2,20 +2,6 @@
 
 Thanks for applying to become a Cuvva Backend Engineer 🎉. Below is a challenge we'd like you complete and send back to us.
 
-## Rules & time limits
-
-Before we start lets set some rules on how much you should feel you need to do:
-
-- The challenge shouldn't take you more than **four hours** (this is the recommended time but we expect it to take less)
-    - If you reach the maximum allowed time and haven't completed the task in the way you want, you can use a README
-    to document what you would have liked to do. If you do so, please be as detailed as possible.
-- You should write code as if it were going to go into production. This means using best practices where possible.
-    - We favour well-documented, simple code over code that is complex, terse and hard to read.
-    - We favour well tested code.
-    - We favour making proper use of concurrency to speed up processes where possible.
-    - We believe it is good practice to make sure inputs are validated and sanitized before being used.
-- Once you're finished we'd like you to submit your code back to us as a zip. Please do not use a public repository.
-
 ## The task
 
 Cuvva sells a lot of motor insurance, you can purchase cover for a range of durations, from 30 minutes all the way up to
@@ -51,10 +37,6 @@ We typically give the user a price for every duration of cover we offer, letting
 sense for them.
 Take a look at the "Calculator" sheet and familiarise yourself with how the total price a user pays is calculated.
 
-A few notes worthwhile mentioning:
-- We do not intend you to read, parse and use the Excel spreadsheet we provided. This is only provided to communicate
-the model. Feel free to copy the factors into a structure you find appropriate for the exercise.
-- We expect you to think about scalability of the model and factor it into the design of the application.
 
 #### Task 2  - Accept details about a user
 
@@ -76,3 +58,23 @@ Update the `generate_pricing` endpoint to respond with the total price a user sh
 found in the base rates sheet.
 
 The output must be in JSON, the schema of the output is left to you.
+
+
+## Rules & time limits
+
+Below are some rules on how much you should feel you need to do:
+
+- The recommended time to complete the challenge is **four hours**
+    - If you reach the recommended time and haven't completed the task in the way you want, you can use a README
+    to document what you would have liked to do. If you do so, please be as detailed as possible.
+    - Or if you do want to put more time into the task, feel free to do so and mention this when you submit the solution.
+- You should write code as if it were going to go into production. This means using best practices where possible
+and having an appropriate code structure.
+    - We favour well-documented, simple code over code that is complex, terse and hard to read.
+    - We favour well tested code.
+    - We favour making proper use of concurrency to speed up processes where possible.
+    - We believe it is good practice to make sure inputs are validated and sanitized before being used.
+    - We expect you to have an appropriate code design which would allow the application to scale to a large number of factors.
+- We do not intend you to read and parse the Excel spreadsheet we provided. This is only provided to communicate
+the model. Feel free to copy the factors into a structure you find appropriate for the exercise.
+- Once you're finished we'd like you to submit your code back to us as a zip. Please do not use a public repository.
