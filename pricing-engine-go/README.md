@@ -74,7 +74,7 @@ and having an appropriate code structure.
     - We favour well tested code.
     - We favour making proper use of concurrency to speed up processes where possible.
     - We believe it is good practice to make sure inputs are validated and sanitized before being used.
-    - We expect you to have an appropriate code design which would allow the application to scale to a large number of factors.
+    - We expect you to have an appropriate code design and layout which would allow the application to scale to a large number of pricing factors (30-50), while remaining easy to read and maintain for developers.
 - We do not intend you to read and parse the Excel spreadsheet we provided. This is only provided to communicate
 the model. Feel free to copy the factors into a structure you find appropriate for the exercise.
 - Once you're finished we'd like you to submit your code back to us as a zip. Please do not use a public repository.
